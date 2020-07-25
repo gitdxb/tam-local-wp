@@ -31,3 +31,41 @@
 [25-Jul-2020 12:23:52 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
 [25-Jul-2020 12:23:52 UTC] PHP   8. wp_update_themes() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:285
 [25-Jul-2020 12:23:52 UTC] PHP   9. trigger_error() C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php:578
+[25-Jul-2020 13:23:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\admin\envato_setup\envato_setup.php on line 1733
+[25-Jul-2020 13:23:34 UTC] PHP Stack trace:
+[25-Jul-2020 13:23:34 UTC] PHP   1. {main}() C:\Users\trant\Local Sites\tam\app\public\wp-admin\admin-ajax.php:0
+[25-Jul-2020 13:23:34 UTC] PHP   2. do_action() C:\Users\trant\Local Sites\tam\app\public\wp-admin\admin-ajax.php:175
+[25-Jul-2020 13:23:34 UTC] PHP   3. WP_Hook->do_action() C:\Users\trant\Local Sites\tam\app\public\wp-includes\plugin.php:478
+[25-Jul-2020 13:23:34 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
+[25-Jul-2020 13:23:34 UTC] PHP   5. Envato_Theme_Setup_Wizard->ajax_content() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:287
+[25-Jul-2020 13:23:34 UTC] PHP   6. Envato_Theme_Setup_Wizard->_content_install_settings() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\admin\envato_setup\envato_setup.php:1040
+[25-Jul-2020 13:33:28 UTC] PHP Warning:  sprintf(): Too few arguments in C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+[25-Jul-2020 13:33:28 UTC] PHP Stack trace:
+[25-Jul-2020 13:33:28 UTC] PHP   1. {main}() C:\Users\trant\Local Sites\tam\app\public\wp-admin\themes.php:0
+[25-Jul-2020 13:33:28 UTC] PHP   2. require_once() C:\Users\trant\Local Sites\tam\app\public\wp-admin\themes.php:10
+[25-Jul-2020 13:33:28 UTC] PHP   3. do_action() C:\Users\trant\Local Sites\tam\app\public\wp-admin\admin.php:254
+[25-Jul-2020 13:33:28 UTC] PHP   4. WP_Hook->do_action() C:\Users\trant\Local Sites\tam\app\public\wp-includes\plugin.php:478
+[25-Jul-2020 13:33:28 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
+[25-Jul-2020 13:33:28 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:287
+[25-Jul-2020 13:33:28 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:743
+[25-Jul-2020 13:33:28 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:2977
+[25-Jul-2020 13:33:28 UTC] PHP   9. TGMPA_Bulk_Installer->run() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:3371
+[25-Jul-2020 13:33:28 UTC] PHP  10. TGMPA_Bulk_Installer->run() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:3258
+[25-Jul-2020 13:33:28 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-wp-upgrader.php:807
+[25-Jul-2020 13:33:28 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:3638
+[25-Jul-2020 13:33:28 UTC] PHP  13. sprintf() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:152
+[25-Jul-2020 13:33:32 UTC] PHP Warning:  sprintf(): Too few arguments in C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+[25-Jul-2020 13:33:32 UTC] PHP Stack trace:
+[25-Jul-2020 13:33:32 UTC] PHP   1. {main}() C:\Users\trant\Local Sites\tam\app\public\wp-admin\themes.php:0
+[25-Jul-2020 13:33:32 UTC] PHP   2. require_once() C:\Users\trant\Local Sites\tam\app\public\wp-admin\themes.php:10
+[25-Jul-2020 13:33:32 UTC] PHP   3. do_action() C:\Users\trant\Local Sites\tam\app\public\wp-admin\admin.php:254
+[25-Jul-2020 13:33:32 UTC] PHP   4. WP_Hook->do_action() C:\Users\trant\Local Sites\tam\app\public\wp-includes\plugin.php:478
+[25-Jul-2020 13:33:32 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
+[25-Jul-2020 13:33:32 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:287
+[25-Jul-2020 13:33:32 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:743
+[25-Jul-2020 13:33:32 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:2977
+[25-Jul-2020 13:33:32 UTC] PHP   9. TGMPA_Bulk_Installer->run() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:3371
+[25-Jul-2020 13:33:32 UTC] PHP  10. TGMPA_Bulk_Installer->run() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:3258
+[25-Jul-2020 13:33:32 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-wp-upgrader.php:807
+[25-Jul-2020 13:33:32 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() C:\Users\trant\Local Sites\tam\app\public\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php:3638
+[25-Jul-2020 13:33:32 UTC] PHP  13. sprintf() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:152
