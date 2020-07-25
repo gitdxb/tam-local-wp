@@ -1,0 +1,33 @@
+[25-Jul-2020 12:23:40 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php on line 162
+[25-Jul-2020 12:23:40 UTC] PHP Stack trace:
+[25-Jul-2020 12:23:40 UTC] PHP   1. {main}() C:\Users\trant\Local Sites\tam\app\public\wp-admin\network\update.php:0
+[25-Jul-2020 12:23:40 UTC] PHP   2. require() C:\Users\trant\Local Sites\tam\app\public\wp-admin\network\update.php:17
+[25-Jul-2020 12:23:40 UTC] PHP   3. Theme_Upgrader->install() C:\Users\trant\Local Sites\tam\app\public\wp-admin\update.php:284
+[25-Jul-2020 12:23:40 UTC] PHP   4. Theme_Upgrader->run() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-theme-upgrader.php:221
+[25-Jul-2020 12:23:40 UTC] PHP   5. do_action() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-wp-upgrader.php:841
+[25-Jul-2020 12:23:40 UTC] PHP   6. WP_Hook->do_action() C:\Users\trant\Local Sites\tam\app\public\wp-includes\plugin.php:478
+[25-Jul-2020 12:23:40 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
+[25-Jul-2020 12:23:40 UTC] PHP   8. wp_version_check() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:285
+[25-Jul-2020 12:23:40 UTC] PHP   9. trigger_error() C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php:162
+[25-Jul-2020 12:23:46 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php on line 388
+[25-Jul-2020 12:23:46 UTC] PHP Stack trace:
+[25-Jul-2020 12:23:46 UTC] PHP   1. {main}() C:\Users\trant\Local Sites\tam\app\public\wp-admin\network\update.php:0
+[25-Jul-2020 12:23:46 UTC] PHP   2. require() C:\Users\trant\Local Sites\tam\app\public\wp-admin\network\update.php:17
+[25-Jul-2020 12:23:46 UTC] PHP   3. Theme_Upgrader->install() C:\Users\trant\Local Sites\tam\app\public\wp-admin\update.php:284
+[25-Jul-2020 12:23:46 UTC] PHP   4. Theme_Upgrader->run() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-theme-upgrader.php:221
+[25-Jul-2020 12:23:46 UTC] PHP   5. do_action() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-wp-upgrader.php:841
+[25-Jul-2020 12:23:46 UTC] PHP   6. WP_Hook->do_action() C:\Users\trant\Local Sites\tam\app\public\wp-includes\plugin.php:478
+[25-Jul-2020 12:23:46 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
+[25-Jul-2020 12:23:46 UTC] PHP   8. wp_update_plugins() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:285
+[25-Jul-2020 12:23:46 UTC] PHP   9. trigger_error() C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php:388
+[25-Jul-2020 12:23:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php on line 578
+[25-Jul-2020 12:23:52 UTC] PHP Stack trace:
+[25-Jul-2020 12:23:52 UTC] PHP   1. {main}() C:\Users\trant\Local Sites\tam\app\public\wp-admin\network\update.php:0
+[25-Jul-2020 12:23:52 UTC] PHP   2. require() C:\Users\trant\Local Sites\tam\app\public\wp-admin\network\update.php:17
+[25-Jul-2020 12:23:52 UTC] PHP   3. Theme_Upgrader->install() C:\Users\trant\Local Sites\tam\app\public\wp-admin\update.php:284
+[25-Jul-2020 12:23:52 UTC] PHP   4. Theme_Upgrader->run() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-theme-upgrader.php:221
+[25-Jul-2020 12:23:52 UTC] PHP   5. do_action() C:\Users\trant\Local Sites\tam\app\public\wp-admin\includes\class-wp-upgrader.php:841
+[25-Jul-2020 12:23:52 UTC] PHP   6. WP_Hook->do_action() C:\Users\trant\Local Sites\tam\app\public\wp-includes\plugin.php:478
+[25-Jul-2020 12:23:52 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:311
+[25-Jul-2020 12:23:52 UTC] PHP   8. wp_update_themes() C:\Users\trant\Local Sites\tam\app\public\wp-includes\class-wp-hook.php:285
+[25-Jul-2020 12:23:52 UTC] PHP   9. trigger_error() C:\Users\trant\Local Sites\tam\app\public\wp-includes\update.php:578
